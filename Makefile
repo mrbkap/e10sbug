@@ -1,5 +1,5 @@
 all:
-	rm extension.xpi
+	rm -f extension.xpi
 	zip -r extension.xpi . -x '.git*' -x Makefile
 
 install: all
