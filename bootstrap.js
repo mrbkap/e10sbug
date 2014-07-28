@@ -1,7 +1,7 @@
 const Cc = Components.classes;
 const Ci = Components.interfaces;
 
-const SCRIPT_URL = "chrome://e10sbug-scripts/content/e10sbug.js";
+const SCRIPT_URL = "chrome://bug687194/content/e10sbug.js";
 
 function install(aData, aReason) {}
 
