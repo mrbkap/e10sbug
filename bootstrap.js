@@ -1,7 +1,7 @@
 const Cc = Components.classes;
 const Ci = Components.interfaces;
 
-const SCRIPT_URL = "chrome://bug687194/content/e10sbug.js";
+const SCRIPT_URL = "chrome://e10scode/content/e10scode.js";
 
 function install(aData, aReason) {}
 
@@ -10,7 +10,7 @@ function uninstall(aData, aReason) {
     Cc["@mozilla.org/globalmessagemanager;1"].
       getService(Ci.nsIMessageBroadcaster);
 
-  gmm.broadcastAsyncMessage("e10sbug:uninstall", {});
+  gmm.broadcastAsyncMessage("e10scode:uninstall", {});
 }
 
 function startup(aData, aReason) {

@@ -3,11 +3,11 @@
   xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 
   <Description about="urn:mozilla:install-manifest">
-    <em:id>e10sbug@xulforge.com</em:id>
-    <em:name>e10s bug test</em:name>
-    <em:description>This add-on blanks out all pages on mozilla.org and mozilla.com.</em:description>
-    <em:version>0.2</em:version>
-    <em:creator>Jorge Villalobos</em:creator>
+    <em:id>e10scode@mozilla.com</em:id>
+    <em:name>e10s code example</em:name>
+    <em:description>This addon shows how to register an observer in the content process in e10s</em:description>
+    <em:version>0.4</em:version>
+    <em:creator>Blake Kaplan</em:creator>
     <em:bootstrap>true</em:bootstrap>
     <em:type>2</em:type>
 
@@ -16,7 +16,7 @@
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
         <em:minVersion>10.0</em:minVersion>
-        <em:maxVersion>26.*</em:maxVersion>
+        <em:maxVersion>35.*</em:maxVersion>
       </Description>
     </em:targetApplication>
 
